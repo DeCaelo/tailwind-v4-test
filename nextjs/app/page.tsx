@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -14,13 +14,33 @@ export default function Home() {
         />
         <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li className="mb-2">
-            Get started by editing{" "}
+            Get started by editing{' '}
             <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
               app/page.tsx
             </code>
-            .
           </li>
           <li>Save and see your changes instantly.</li>
+          <div className="[&:hover,&:focus]:bg-blue-500 cursor-pointer">
+            Hover or Focus Me
+          </div>
+          <div className="p-8 bg-violet-600/50 text-white font-family-display">
+            <div className="text-00">Almost before you knew it</div>
+            <div className="text-0">Almost before you knew it</div>
+            <div className="text-1">Almost before you knew it</div>
+            <div className="text-2">Almost before you knew it</div>
+            <div className="text-3">Almost before you knew it</div>
+            <div className="text-4">Almost before you knew it</div>
+            <div className="text-5">Almost before you knew it</div>
+            <div className="text-6">Almost before you knew it</div>
+            <div className="text-7">Almost before you knew it</div>
+            <div className="text-8">Almost before you knew it</div>
+          </div>
+          <div className="max-w-lg 3xl:max-w-xl">
+            <h1 className="font-display text-4xl">
+              Data to <span className="text-neon-cyan">enrich</span> your online
+              business
+            </h1>
+          </div>
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
