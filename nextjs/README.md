@@ -1,3 +1,0 @@
-- bun add tailwindcss@next @tailwindcss/postcss@next
-- https://github.com/tailwindlabs/tailwindcss/blob/main/stubs/config.full.js
-- https://github.com/argyleink/open-props/tree/main/src
