@@ -1,5 +1,7 @@
 @import 'tailwindcss';
-@plugin "tailwindcss-animate";
+@import 'tailwindcss/theme' theme(reference);
+@plugin 'tailwindcss-animate';
+@import './typography.css' layer(utilities);
 
 @theme {
   --color-background: #fff;
